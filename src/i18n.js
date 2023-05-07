@@ -72,8 +72,8 @@ i18n.use(initReactI18next).init({
                 TechSkills:"Habilidades técnicas",
                 SoftSkills:"Habilidades blandas",
                 Autodidacta:"Autodidacta",
-                AprendizajeRapido:"Aprendizaje Rapido",
-                CapacidadAnalisis:"Capacidad de Analisis:",
+                AprendizajeRapido:"Aprendizaje Rápido",
+                CapacidadAnalisis:"Capacidad de Análisis:",
                 TrabajoEquipo:"Trabajo en equipo",
 
                 ProyectoDescripcion1:"Aplicación web para consultar el clima, temperatura, humedad y "+
