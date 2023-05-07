@@ -17,12 +17,12 @@ function App() {
         <BrowserRouter>
           <HeaderApp/>
           <Routes>
-            <Route path='/' element={<Home/>}/>
-            <Route path='/skill' element={<Skill/>}/>
-            <Route path='/about' element={<About/>}/>
-            <Route path='/proyectos' element={<Projects/>}/>
-            <Route path='/contactme' element={<ContactMe/>}/>
-            <Route path='*' element={<NotFound/>}/>
+            <Route path='my-portfolio/' element={<Home/>}/>
+            <Route path='my-portfolio/skill' element={<Skill/>}/>
+            <Route path='my-portfolio/about' element={<About/>}/>
+            <Route path='my-portfolio/proyectos' element={<Projects/>}/>
+            <Route path='my-portfolio/contactme' element={<ContactMe/>}/>
+            <Route path='my-portfolio/*' element={<NotFound/>}/>
           </Routes>
         </BrowserRouter>
 

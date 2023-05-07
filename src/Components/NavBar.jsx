@@ -45,14 +45,14 @@ const NavBar = () => {
 
         <div class="collapse navbar-collapse" id="opciones">
           <ul className="navbar-nav me-0 list-container-navBar">
-              <li><NavLink to="/" className="active" >{t("Home")}</NavLink></li>
-              <li><NavLink to="/about" className="active">{t("AboutMe")}</NavLink></li>
+              <li><NavLink to="my-portfolio/" className="active" >{t("Home")}</NavLink></li>
+              <li><NavLink to="my-portfolio/about" className="active">{t("AboutMe")}</NavLink></li>
               
-              <li><NavLink to="/skill" className="active">Skills</NavLink></li>
+              <li><NavLink to="my-portfolio/skill" className="active">Skills</NavLink></li>
               
-              <li><NavLink to="/proyectos" className="active">{t("Projects")}</NavLink></li>
+              <li><NavLink to="my-portfolio/proyectos" className="active">{t("Projects")}</NavLink></li>
 
-              <li><NavLink to="/contactme" className="active">{t("ContactMe")}</NavLink></li>
+              <li><NavLink to="my-portfolio/contactme" className="active">{t("ContactMe")}</NavLink></li>
               
           </ul>
         </div>
