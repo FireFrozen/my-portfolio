@@ -1,23 +1,38 @@
-import logo from './logo.svg';
+
 import './App.css';
+import HeaderApp from './Components/HeaderApp';
+import Home from './Components/Home';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Skill from './Components/Skill';
+import About from './Components/About';
+import Projects from './Components/Projects';
+import ContactMe from './Components/ContactMe';
+import NotFound from './Components/NotFound';
+import FooterApp from './Components/FooterApp.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-header margin-app">
+        <BrowserRouter>
+          <HeaderApp/>
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/skill' element={<Skill/>}/>
+            <Route path='/about' element={<About/>}/>
+            <Route path='/proyectos' element={<Projects/>}/>
+            <Route path='/contactme' element={<ContactMe/>}/>
+            <Route path='*' element={<NotFound/>}/>
+          </Routes>
+        </BrowserRouter>
+
+      </div>
+
+      <footer>
+        <FooterApp/>
+        
+      </footer>
+      
     </div>
   );
 }

@@ -1,0 +1,53 @@
+.About{
+    display: flex;
+}
+.about-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    
+    max-width: 1000px;
+    margin-top: 6rem;
+    
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    row-gap: 30px;
+    max-width: 600px;
+}
+
+.about-text h1{
+    font-size: 4rem;
+    transition: 1s;
+}
+
+.mood .about-text h1{
+    color: #788cc1;
+    transition: 1s;
+}
+
+
+.about-text p{
+    font-size: 1.5rem;
+    color: rgb(106, 98, 98);
+    transition: 1s;
+}
+
+.mood .about-text p{
+    font-size: 1.5rem;
+    color: white;
+    transition: 1s;
+}
+
+.about-buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    margin: auto;
+}

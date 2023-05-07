@@ -1,0 +1,88 @@
+.Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    column-gap: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.section-titles{
+    color: black;
+}
+
+.section-titles h1{
+    font-size: 50px;
+}
+.section-titles h2{
+    color: rgb(106, 98, 98);
+}
+
+
+
+.section-titles button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+
+    width: 250px;
+    height: 80px;
+    border-radius: 40px;
+
+    border: none;
+    background: rgb(48, 48, 162);
+    color: white;
+    box-shadow: 0px 0px 15px 0px rgba(195, 192, 192, 0.75);
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+
+a.active{
+    text-decoration-line: none;
+}
+
+.section-titles button:hover{
+    background: rgba(11, 11, 127, 0.468);
+}
+
+.Home-img{
+    max-width: 400px;
+
+    background-color: rgb(48, 48, 162);
+    border-radius: 30% 30% 8% 8%;
+    box-shadow: 0px 5px 15px 0px rgba(195, 192, 192, 0.75);
+
+}
+
+/*Dark mode*/
+
+.mood .section-titles{
+    color: white;
+    transition: 1s;
+}
+
+.mood .section-titles h1{
+    color: #788cc1;
+    transition: 1s;
+}
+
+/*Mobile Design*/
+
+@media only screen and (width<870px) {
+    .Home{
+        display: flex;
+        flex-direction: column;
+    
+        row-gap: 50px;
+    }
+
+    .Home-img{
+        width: 70vw;
+    
+    }
+}

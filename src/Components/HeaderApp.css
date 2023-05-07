@@ -1,0 +1,17 @@
+.HeaderApp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: 100%;
+    
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+/*Dark mode*/
+.mood .HeaderApp h1{
+
+    color: white;
+}

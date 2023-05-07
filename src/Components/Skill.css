@@ -1,0 +1,99 @@
+.Skill{
+    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    flex-wrap: wrap;        
+}
+
+.Skill h1{
+    font-size: 50px;
+}
+
+.Skill-container{
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    column-gap: 150px;
+    flex-wrap: wrap;  
+        
+}
+
+.section-skill{
+    
+    position: relative;
+    
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    
+    /*border: 1px solid;*/
+
+}
+
+.section-skill h2{
+    font-size: 40px;
+    transition: color 1s;
+    text-align: center; 
+}
+
+
+.section-skill ul li{
+    font-size: 1.5rem;
+    color: rgb(106, 98, 98);
+ 
+    transition: color 1s;
+    text-align: center;
+    display: flex; 
+    list-style: none;   
+}
+
+
+/*
+.skill-imagen{
+    border: 1px solid;
+}
+*/
+
+.logo-skill {
+    max-width: 400px;
+    
+    border-radius: 30% 30% 8% 8%;
+    box-shadow: 0px 5px 15px 0px rgba(195, 192, 192, 0.75);
+}
+
+/*Dark mode*/
+
+.mood .Skill h1{
+    transition: color 1s;
+    text-align: center;
+    color: #788cc1;  
+}
+
+.mood .Skill h2{
+    transition: color 1s;
+    text-align: center;
+    color: #788cc1;  
+}
+
+.mood .section-skill ul li{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+ 
+    transition: color 1s;
+    text-align: center;
+    display: flex; 
+    list-style: none;   
+}
+
+/*Mobile Design*/
+
+@media only screen and (width<1200px) {
+    
+}

@@ -1,0 +1,84 @@
+.Projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    color: black;
+}
+
+.Projects >h1{
+    font-size: 50px;
+}
+
+.proyecto-img{
+    max-width: 400px;
+    
+    box-shadow: 0px 5px 15px 0px rgba(195, 192, 192, 0.75);
+
+}
+
+.Projects-item{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 1px solid;*/
+    width: 70%;
+    column-gap: 50px;
+
+}
+
+.Projects-item-text{
+    
+    max-width: 500px;
+    
+}
+
+.Projects-buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+/*Dark mode*/
+
+.mood .Projects{
+    color: white;
+    transition: 1s;
+}
+
+.mood .Projects > h1{
+    color: #788cc1;
+    transition: 1s;
+}
+
+/*Mobile Design*/
+
+@media only screen and (width<1150px) {
+    .Projects-item{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /*border: 1px solid;*/
+        width: 70%;
+        column-gap: 50px;
+        row-gap: 50px;
+
+    
+    }
+
+    .Projects-item-text{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+}

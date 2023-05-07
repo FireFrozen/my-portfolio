@@ -1,0 +1,81 @@
+.NotFound{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    column-gap: 30px;
+    row-gap: 30px;
+    }
+
+.NotFound-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.NotFound img{
+    max-width: 500px;
+    margin:auto;
+}
+
+
+.NotFound h1{
+    font-size: 4rem;
+    transition: 1s;
+    margin: auto;
+    color: #ec652c;
+}
+
+.NotFound h2{
+    font-size: 3rem;
+    transition: 1s;
+    margin: auto;
+}
+
+.NotFound p{
+    transition: 1s;
+    margin: auto;
+}
+
+
+.NotFound button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+
+    width: 250px;
+    height: 80px;
+    border-radius: 40px;
+
+    border: none;
+    background: rgb(48, 48, 162);
+    color: white;
+    box-shadow: 0px 0px 15px 0px rgba(195, 192, 192, 0.75);
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+/*Dark Mode*/
+
+.mood .NotFound h1{
+    color: #e8a580;
+    transition: 1s;
+}
+
+.mood .NotFound h2{
+    color: #788cc1;
+    transition: 1s;
+}
+
+.mood .NotFound p{
+    color: white;
+    transition: 1s;
+}

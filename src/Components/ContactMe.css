@@ -1,0 +1,62 @@
+.ContactMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ContactMe h1{
+    font-size: 50px;
+}
+
+.ContactMe-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 50px;
+    row-gap: 50px;
+
+    margin-top: 50px;
+}
+
+.ContactMe-item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-ContactMe{
+    font-size: 80px;
+
+}
+
+#ContactMe-github{
+    color: #ff7c04;
+}
+
+#ContactMe-linkedin{
+    color: #0e76a8;
+}
+
+.icon-ContactMe:hover{
+    font-size: 80px;
+    opacity: 0.5;
+}
+
+/*Dark Mode*/
+
+.mood .ContactMe{
+    color: white;
+    transition: 1s;
+}
+
+.mood .ContactMe h1{
+    color: #788cc1;
+    transition: 1s;
+}
