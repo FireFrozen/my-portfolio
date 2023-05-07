@@ -54,7 +54,7 @@ i18n.use(initReactI18next).init({
                 Home: 'Página principal',
                 greeting: "Hola, soy",
                 ocupation:"Desarrollador Frontend",
-                HomeDescription:"Nivel medio de experiencia en diseño web y orientado aprendizaje constante",
+                HomeDescription:"Nivel medio de experiencia en diseño web y orientado al aprendizaje constante",
                 AboutMe: "Acerca de mí",
                 Projects: "Proyectos",
                 ContactMe:"Contáctame",
