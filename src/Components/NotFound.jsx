@@ -18,7 +18,7 @@ const NotFound = () => {
           <p>Sorry, page not found</p>
           <p>{t("NotFoundMessage")}</p>
         </div>
-        <NavLink to="/" className="active">
+        <NavLink to="/my-portfolio/" className="active">
           <button> 
               {t("GoHomePage")} <FaArrowAltCircleRight/>
           </button>
