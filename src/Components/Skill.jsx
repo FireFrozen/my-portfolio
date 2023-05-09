@@ -14,8 +14,8 @@ const Skill = () => {
         <section className='section-skill'>
           <h2>{t("TechSkills")}</h2>
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>HTML/HTML5</li>
+            <li>CSS/CSS3</li>
             <li>Javascript</li>
             <li>Bootstrap</li>
             <li>React</li>
