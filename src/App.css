@@ -13,7 +13,7 @@
 
 .App-header{
   /*border: 1px solid blue;*/
-  min-height: 100vh;
+  min-height: calc(100vh - 185px);
   
   
 }

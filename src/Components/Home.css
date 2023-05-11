@@ -44,6 +44,7 @@
 
 a.active{
     text-decoration-line: none;
+    color: white;
 }
 
 .section-titles button:hover{

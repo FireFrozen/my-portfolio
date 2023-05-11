@@ -15,13 +15,13 @@ const Home = () => {
         <h2>{t("ocupation")}</h2>
 
         <p>{t("HomeDescription")}</p>
-        
+        <button> 
         <NavLink to="/my-portfolio/proyectos" className="active">
-          <button> 
+          
               Ver Proyectos <FaArrowAltCircleRight/>
-          </button>
+          
         </NavLink>
-        
+        </button>
       </div>
 
       <div className='PerfilImg'>

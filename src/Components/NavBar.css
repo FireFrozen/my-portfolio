@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-li{
+.nav-app li{
     display: inline-block;
     margin: 1rem;
     list-style: none;
@@ -12,11 +12,11 @@ li{
     cursor: pointer;
 }
 
-li:hover{
+.nav-app li:hover{
     color: rgb(24, 24, 181);
 }
 
-li a.active{
+.nav-app li a.active{
     display: inline-block;
     margin: 1rem;
     list-style: none;
@@ -26,7 +26,7 @@ li a.active{
     text-decoration-line: none;
 }
 
-li a.active:hover{
+.nav-app li a.active:hover{
     color: rgb(24, 24, 181);
 }
 
