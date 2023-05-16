@@ -5,7 +5,7 @@ import './HeaderApp.css'
 const HeaderApp = () => {
   return (
     <div className='HeaderApp'>
-        <h1>Alejandro</h1>
+        <h1 className='logo-web'>Alejandro</h1>
         <NavBar/>
     </div>
     

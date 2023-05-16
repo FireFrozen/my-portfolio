@@ -12,6 +12,12 @@ import Typescript from "../Assets/icons/icons8-typescript.svg"
 import Git from "../Assets/icons/icons8-git.svg"
 import Python from "../Assets/icons/icons8-python.svg"
 
+import {GiMagnifyingGlass} from "react-icons/gi"
+import {AiOutlineLaptop} from "react-icons/ai"
+import {AiOutlineThunderbolt} from "react-icons/ai"
+import {AiOutlineTeam} from "react-icons/ai"
+
+
 const Skill = () => {
 
   const {t, i18n} = useTranslation();
@@ -90,10 +96,10 @@ const Skill = () => {
         <section className='section-skill'>
           <h2>{t("SoftSkills")}</h2>
           <ul>
-            <li>{t("Autodidacta")}</li>
-            <li>{t("AprendizajeRapido")}</li>
-            <li>{t("CapacidadAnalisis")}</li>
-            <li>{t("TrabajoEquipo")}</li>                
+            <li><AiOutlineLaptop/> &nbsp; {t("Autodidacta")}</li>
+            <li><AiOutlineThunderbolt/> &nbsp; {t("AprendizajeRapido")}</li>
+            <li><GiMagnifyingGlass/> &nbsp; {t("CapacidadAnalisis")}</li>
+            <li><AiOutlineTeam/> &nbsp; {t("TrabajoEquipo")}</li>                
           </ul>
           
         </section>

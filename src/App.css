@@ -13,7 +13,7 @@
 
 .App-header{
   /*border: 1px solid blue;*/
-  min-height: calc(100vh - 185px);
+  min-height: calc(100vh - 195px);
   
   
 }
@@ -23,6 +23,77 @@
   margin-right: 5%;
 }
 
+.logo-web{
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+.logo-web:hover{
+  font-size: calc(1.375rem + 1.5vw);
+  animation-name: animacion-pop;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-name: animacion-pop;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  -moz-animation-name: animacion-pop;
+  -moz-animation-duration: 0.5s;
+  -moz-animation-iteration-count: 1;
+  -webkit-animation-name: animacion-pop;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-iteration-count: 1;
+  -o-animation-name: animacion-pop;
+  -o-animation-duration: 0.5s;
+  -o-animation-iteration-count: 1;
+}
+/*Animations*/
+
+@keyframes animacion-pop {
+  0%{
+    font-size: calc(1.375rem + 1.5vw);
+  }
+  50%{
+    font-size: calc(1.375rem + 2vw);  
+  }
+  100%{
+    font-size: calc(1.375rem + 1.5vw);
+  }
+}
+
+@-moz-keyframes animacion-pop {
+  0%{
+    font-size: calc(1.375rem + 1.5vw);
+  }
+  50%{
+    font-size: calc(1.375rem + 2vw); 
+  }
+  100%{
+    font-size: calc(1.375rem + 1.5vw);
+  }
+}
+
+@-webkit-keyframes animacion-pop {
+  0%{
+    font-size: calc(1.375rem + 1.5vw);
+  }
+  50%{
+    font-size: calc(1.375rem + 2vw);   
+  }
+  100%{
+    font-size: calc(1.375rem + 1.5vw);
+  }
+}
+
+@-o-keyframes animacion-pop {
+  0%{
+    font-size: calc(1.375rem + 1.5vw);
+  }
+  50%{
+    font-size: calc(1.375rem + 2vw);  
+  }
+  100%{
+    font-size: calc(1.375rem + 1.5vw);
+  }
+}
 
 /*
 

@@ -9,7 +9,7 @@ const FooterApp = () => {
         
         
         <div className='FooterApp-container margin-app'>
-            <h1>Alejandro</h1>
+            <h1 className='logo-web'>Alejandro</h1>
             <div className='icon-footer-container'>
 
                 <a href="https://github.com/FireFrozen" 

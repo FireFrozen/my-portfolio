@@ -53,7 +53,8 @@
     transition: color 1s;
     text-align: center;
     display: flex; 
-    list-style: none;   
+    list-style: none;
+    align-items: center;
 }
 
 
@@ -80,6 +81,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .tarjeta-icono p{
     margin: 0;
     color: rgb(106, 98, 98);

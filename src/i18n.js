@@ -32,7 +32,7 @@ i18n.use(initReactI18next).init({
                 SoftSkills:"Soft Skills",
                 Autodidacta:"Autodidact",
                 AprendizajeRapido:"Quick Learning",
-                CapacidadAnalisis:"Analytical Skills",
+                CapacidadAnalisis:"Analytical Skill",
                 TrabajoEquipo:"Teamwork",
 
                 ProyectoDescripcion1:"Web application to check the weather, temperature, humidity and "+
@@ -73,7 +73,7 @@ i18n.use(initReactI18next).init({
                 SoftSkills:"Habilidades blandas",
                 Autodidacta:"Autodidacta",
                 AprendizajeRapido:"Aprendizaje Rápido",
-                CapacidadAnalisis:"Capacidad de Análisis:",
+                CapacidadAnalisis:"Capacidad de Análisis",
                 TrabajoEquipo:"Trabajo en equipo",
 
                 ProyectoDescripcion1:"Aplicación web para consultar el clima, temperatura, humedad y "+
