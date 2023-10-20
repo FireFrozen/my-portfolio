@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.fb79ca41.css",
-    "main.js": "/my-portfolio/static/js/main.c79783d1.js",
+    "main.js": "/my-portfolio/static/js/main.714c1ed3.js",
     "static/js/787.f35f70c9.chunk.js": "/my-portfolio/static/js/787.f35f70c9.chunk.js",
     "static/media/D008_72391553_B.pdf": "/my-portfolio/static/media/D008_72391553_B.436a077d5eb86fbf986b.pdf",
     "static/media/rock-paper-scissors-app.png": "/my-portfolio/static/media/rock-paper-scissors-app.ba9a348bd5a406d890a6.png",
     "static/media/Weather-app.png": "/my-portfolio/static/media/Weather-app.ae9844f33e6f027a47fb.png",
     "static/media/image-skills.jpg": "/my-portfolio/static/media/image-skills.8b5e0f47c3f7b74c3a18.jpg",
-    "static/media/CV-Juan Mendoza.pdf": "/my-portfolio/static/media/CV-Juan Mendoza.1690a6d05e058445a301.pdf",
+    "static/media/CV-Juan Mendoza.pdf": "/my-portfolio/static/media/CV-Juan Mendoza.ab215bea9cd8225f99c5.pdf",
     "static/media/computer1.jpg": "/my-portfolio/static/media/computer1.4b375bd661d701c78f1a.jpg",
     "static/media/Url-shortning-app.png": "/my-portfolio/static/media/Url-shortning-app.14b5fe2d2eee3e90cce1.png",
     "static/media/advice-generator-app.png": "/my-portfolio/static/media/advice-generator-app.8be608d67d8d827b7fe6.png",
@@ -23,11 +23,11 @@
     "static/media/icons8-css.svg": "/my-portfolio/static/media/icons8-css.db7dfd1247623e1e9223d8ef28a37432.svg",
     "static/media/icons8-html.svg": "/my-portfolio/static/media/icons8-html.a026abbb678246d70ee9b70e4aee972c.svg",
     "main.fb79ca41.css.map": "/my-portfolio/static/css/main.fb79ca41.css.map",
-    "main.c79783d1.js.map": "/my-portfolio/static/js/main.c79783d1.js.map",
+    "main.714c1ed3.js.map": "/my-portfolio/static/js/main.714c1ed3.js.map",
     "787.f35f70c9.chunk.js.map": "/my-portfolio/static/js/787.f35f70c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb79ca41.css",
-    "static/js/main.c79783d1.js"
+    "static/js/main.714c1ed3.js"
   ]
 }
