@@ -16,7 +16,7 @@ const Home = () => {
 
         <p>{t("HomeDescription")}</p>
         <button> 
-        <NavLink to="/my-portfolio/proyectos" className="active">
+        <NavLink to="/proyectos" className="active">
           
               {t("VerProyectos")} <FaArrowAltCircleRight/>
           
