@@ -18,7 +18,7 @@ i18n.use(initReactI18next).init({
                 Projects: "Projects",
                 ContactMe:"Contact me",
                 VerCodigo:"View Code",
-                VerProyecto:"View Project",
+                VerProyectos:"View Projects",
 
                 DescargarCV:"Download CV",
                 CertificadoBachiller:"Bachelor Certificate",
@@ -59,7 +59,7 @@ i18n.use(initReactI18next).init({
                 Projects: "Proyectos",
                 ContactMe:"Contáctame",
                 VerCodigo:"Ver Código",
-                VerProyecto:"Ver Proyecto",
+                VerProyectos:"Ver Proyectos",
 
                 DescargarCV:"Descargar CV",
                 CertificadoBachiller:"Certificado de Bachiller",

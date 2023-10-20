@@ -2,7 +2,7 @@
 import './App.css';
 import HeaderApp from './Components/HeaderApp';
 import Home from './Components/Home';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes,HashRouter } from 'react-router-dom';
 import Skill from './Components/Skill';
 import About from './Components/About';
 import Projects from './Components/Projects';
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <div className="App-header margin-app">
-        <BrowserRouter>
+        <HashRouter>
           <HeaderApp/>
           <Routes>
             <Route path='my-portfolio/' element={<Home/>}/>
@@ -24,7 +24,7 @@ function App() {
             <Route path='my-portfolio/contactme' element={<ContactMe/>}/>
             <Route path='my-portfolio/*' element={<NotFound/>}/>
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
 
       </div>
 
