@@ -82,7 +82,7 @@ i18n.use(initReactI18next).init({
                 TrabajoEquipo:"Trabajo en equipo",
 
                 ProyectoDescripcion0:`Aplicación web que permite realizar operaciones CRUD.
-                Incluye una paginación para mostrar los elementos de la tabla de manera más organizada
+                Incluye una paginación para mostrar los elementos de la tabla de manera más organizada. 
                 Se utiliza Firebase para la autenticación y la base de datos de la alicación. 
                 Desarrollada con Angular y Firebase`,
 
