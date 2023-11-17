@@ -1,6 +1,10 @@
 import React from 'react'
 import "./Projects.css"
 import { useTranslation } from "react-i18next"
+import Proyecto0a from "../Assets/Proyectos/Captura web_17-11-2023_14538_firefrozen.github.io.jpeg"
+import Proyecto0b from "../Assets/Proyectos/Captura web_17-11-2023_145418_firefrozen.github.io.jpeg"
+import Proyecto0c from "../Assets/Proyectos/Captura web_17-11-2023_32436_firefrozen.github.io.jpeg"
+
 import Proyecto1 from "../Assets/Proyectos/Weather-app.png"
 import Proyecto2 from "../Assets/Proyectos/Url-shortning-app.png"
 import Proyecto3 from "../Assets/Proyectos/advice-generator-app.png"
@@ -15,6 +19,47 @@ const Projects = () => {
   return (
     <div className='Projects'>
       <h1>{t("Projects")}</h1>
+
+      <div className='Projects-item'>
+        <div className='Projects-item-text'>
+              <h1>CRUD app</h1>
+              <p>{t("ProyectoDescripcion0")}</p>
+
+              <div className='Projects-buttons'>
+                <a className="btn btn-outline-primary" 
+                  href="https://github.com/FireFrozen/CRUD-Angular-Firebase" 
+                  role="button" target='_blank'>{t("VerCodigo")}</a>
+                <a className="btn btn-success" 
+                  href="https://firefrozen.github.io/CRUD-Angular-Firebase/" 
+                role="button" target='_blank'>{t("VerProyecto")}</a>
+              </div>
+        </div>
+        {/* <img className='proyecto-img' src={Proyecto0a} alt='proyecto0'/> */}
+
+        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img className="proyecto-img proyecto-img-crud" src={Proyecto0a} alt="First slide"/>
+            </div>
+            <div class="carousel-item">
+              <img className="proyecto-img proyecto-img-crud" src={Proyecto0b} alt="Second slide"/>
+            </div>
+            <div class="carousel-item">
+              <img className="proyecto-img proyecto-img-crud" src={Proyecto0c} alt="Third slide"/>
+            </div>
+          </div>
+          <a className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
+          </a>
+          <a className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
+          </a>
+        </div>
+
+      </div>
+
       <div className='Projects-item'>
         <div className='Projects-item-text'>
               <h1>Wheather app</h1>

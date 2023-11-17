@@ -35,6 +35,11 @@ i18n.use(initReactI18next).init({
                 CapacidadAnalisis:"Analytical Skill",
                 TrabajoEquipo:"Teamwork",
 
+                ProyectoDescripcion0:`Web application that allows you to perform CRUD operations.
+                Includes pagination to display table elements in a more organized way.
+                Firebase is used for authentication and the application database.
+                Developed with Angular and Firebase`,
+
                 ProyectoDescripcion1:"Web application to check the weather, temperature, humidity and "+
                 "wind speed of the city of a country. Developed with React",
                 ProyectoDescripcion2:"Web application with a responsive design to shorten URL that "+
@@ -75,6 +80,11 @@ i18n.use(initReactI18next).init({
                 AprendizajeRapido:"Aprendizaje Rápido",
                 CapacidadAnalisis:"Capacidad de Análisis",
                 TrabajoEquipo:"Trabajo en equipo",
+
+                ProyectoDescripcion0:`Aplicación web que permite realizar operaciones CRUD.
+                Incluye una paginación para mostrar los elementos de la tabla de manera más organizada
+                Se utiliza Firebase para la autenticación y la base de datos de la alicación. 
+                Desarrollada con Angular y Firebase`,
 
                 ProyectoDescripcion1:"Aplicación web para consultar el clima, temperatura, humedad y "+
                 "velocidad del viento de la ciudad de un país. Desarrollada con React",
