@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.1e8544c0.css",
-    "main.js": "/my-portfolio/static/js/main.c8f2daf9.js",
+    "main.js": "/my-portfolio/static/js/main.1fa1c185.js",
     "static/js/787.f35f70c9.chunk.js": "/my-portfolio/static/js/787.f35f70c9.chunk.js",
     "static/media/D008_72391553_B.pdf": "/my-portfolio/static/media/D008_72391553_B.436a077d5eb86fbf986b.pdf",
     "static/media/rock-paper-scissors-app.png": "/my-portfolio/static/media/rock-paper-scissors-app.ba9a348bd5a406d890a6.png",
@@ -26,11 +26,11 @@
     "static/media/icons8-css.svg": "/my-portfolio/static/media/icons8-css.db7dfd1247623e1e9223d8ef28a37432.svg",
     "static/media/icons8-html.svg": "/my-portfolio/static/media/icons8-html.a026abbb678246d70ee9b70e4aee972c.svg",
     "main.1e8544c0.css.map": "/my-portfolio/static/css/main.1e8544c0.css.map",
-    "main.c8f2daf9.js.map": "/my-portfolio/static/js/main.c8f2daf9.js.map",
+    "main.1fa1c185.js.map": "/my-portfolio/static/js/main.1fa1c185.js.map",
     "787.f35f70c9.chunk.js.map": "/my-portfolio/static/js/787.f35f70c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e8544c0.css",
-    "static/js/main.c8f2daf9.js"
+    "static/js/main.1fa1c185.js"
   ]
 }
