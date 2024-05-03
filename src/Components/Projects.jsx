@@ -31,7 +31,7 @@ const Projects = () => {
                   role="button" target='_blank'>{t("VerCodigo")}</a>
                 <a className="btn btn-success" 
                   href="https://firefrozen.github.io/CRUD-Angular-Firebase/" 
-                role="button" target='_blank'>{t("VerProyecto")}</a>
+                role="button" target='_blank'>{t("VerProyectos")}</a>
               </div>
         </div>
         {/* <img className='proyecto-img' src={Proyecto0a} alt='proyecto0'/> */}
@@ -71,7 +71,7 @@ const Projects = () => {
                   role="button" target='_blank'>{t("VerCodigo")}</a>
                 <a className="btn btn-success" 
                   href="https://firefrozen.github.io/react-weather-app-async/" 
-                role="button" target='_blank'>{t("VerProyecto")}</a>
+                role="button" target='_blank'>{t("VerProyectos")}</a>
               </div>
         </div>
         <img className='proyecto-img' src={Proyecto1} alt='proyecto1'/>
@@ -88,7 +88,7 @@ const Projects = () => {
                   role="button" target='_blank'>{t("VerCodigo")}</a>
                 <a className="btn btn-success" 
                   href="https://firefrozen.github.io/url-shortening-api-react/" 
-                  role="button" target='_blank'>{t("VerProyecto")}</a>
+                  role="button" target='_blank'>{t("VerProyectos")}</a>
               </div>
         </div>
         <img className='proyecto-img' src={Proyecto2} alt='proyecto2'/>
@@ -106,7 +106,7 @@ const Projects = () => {
                   role="button" target='_blank'>{t("VerCodigo")}</a>
                 <a className="btn btn-success" 
                   href="https://firefrozen.github.io/advice-generator-app-main/" 
-                  role="button" target='_blank'>{t("VerProyecto")}</a>
+                  role="button" target='_blank'>{t("VerProyectos")}</a>
               </div>
         </div>
         <img className='proyecto-img' src={Proyecto3} alt='proyecto3'/>
@@ -124,7 +124,7 @@ const Projects = () => {
                   role="button" target='_blank'>{t("VerCodigo")}</a>
                 <a className="btn btn-success" 
                   href="https://firefrozen.github.io/rock-paper-scissors-master-3-elements/" 
-                  role="button" target='_blank'>{t("VerProyecto")}</a>
+                  role="button" target='_blank'>{t("VerProyectos")}</a>
               </div>
         </div>
         <img className='proyecto-img' src={Proyecto4} alt='proyecto4'/>

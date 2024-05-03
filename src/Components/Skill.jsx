@@ -11,6 +11,9 @@ import Bootstrap from "../Assets/icons/icons8-bootstrap.svg"
 import Typescript from "../Assets/icons/icons8-typescript.svg"
 import Git from "../Assets/icons/icons8-git.svg"
 import Python from "../Assets/icons/icons8-python.svg"
+import WordPress from "../Assets/icons/icons8-wordpress.svg"
+import Figma from "../Assets/icons/icons8-figura.svg"
+import NodeJS from "../Assets/icons/icons8-nodo-js.svg"
 
 import {GiMagnifyingGlass} from "react-icons/gi"
 import {AiOutlineLaptop} from "react-icons/ai"
@@ -83,6 +86,21 @@ const Skill = () => {
             <div className='tarjeta-icono'>
               <img src={Typescript} alt='Typescript-icon'/>
               <p>Typescript</p>
+            </div>
+
+            <div className='tarjeta-icono'>
+              <img src={Figma} alt='Figma-icon'/>
+              <p>Figma</p>
+            </div>
+
+            <div className='tarjeta-icono'>
+              <img src={NodeJS} alt='Nodejs-icon'/>
+              <p>Node.js</p>
+            </div>
+
+            <div className='tarjeta-icono'>
+              <img src={WordPress} alt='Wordpress-icon'/>
+              <p>WordPress</p>
             </div>
 
             <div className='tarjeta-icono'>

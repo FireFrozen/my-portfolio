@@ -13,7 +13,7 @@ i18n.use(initReactI18next).init({
                 Home: 'Home',
                 greeting: "Hi, I'm",
                 ocupation:"Frontend developer",
-                HomeDescription:"Medium level of experience in web design and oriented to learning constantly",
+                HomeDescription:"Medium level of experience in web development and oriented to learning constantly",
                 AboutMe: "About me",
                 Projects: "Projects",
                 ContactMe:"Contact me",
@@ -59,7 +59,7 @@ i18n.use(initReactI18next).init({
                 Home: 'Página principal',
                 greeting: "Hola, soy",
                 ocupation:"Desarrollador Frontend",
-                HomeDescription:"Nivel medio de experiencia en diseño web y orientado al aprendizaje constante",
+                HomeDescription:"Nivel medio de experiencia en desarrollo web y orientado al aprendizaje constante",
                 AboutMe: "Acerca de mí",
                 Projects: "Proyectos",
                 ContactMe:"Contáctame",
@@ -83,7 +83,7 @@ i18n.use(initReactI18next).init({
 
                 ProyectoDescripcion0:`Aplicación web que permite realizar operaciones CRUD.
                 Incluye una paginación para mostrar los elementos de la tabla de manera más organizada. 
-                Se utiliza Firebase para la autenticación y la base de datos de la alicación. 
+                Se utiliza Firebase para la autenticación y la base de datos de la aplicación. 
                 Desarrollada con Angular y Firebase`,
 
                 ProyectoDescripcion1:"Aplicación web para consultar el clima, temperatura, humedad y "+

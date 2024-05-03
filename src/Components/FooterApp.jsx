@@ -31,7 +31,10 @@ const FooterApp = () => {
             <a target="_blank" href="https://icons8.com/icon/123603/reaccionar-nativo">React</a> icon,&nbsp;
             <a target="_blank" href="https://icons8.com/icon/uJM6fQYqDaZK/typescript">TypeScript</a> icon,&nbsp;
             <a target="_blank" href="https://icons8.com/icon/71257/angularjs">Angular</a> icon,&nbsp;
-            <a target="_blank" href="https://icons8.com/icon/13441/python">Python</a> icon and&nbsp;
+            <a target="_blank" href="https://icons8.com/icon/13441/python">Python</a> icon,&nbsp;
+            <a target="_blank" href="https://icons8.com/icon/13664/wordpress">WordPress</a> icon,&nbsp;
+            <a target="_blank" href="https://icons8.com/icon/zfHRZ6i1Wg0U/figma">Figma</a> icon,&nbsp;
+            <a target="_blank" href="https://icons8.com/icon/hsPbhkOH4FMe/node-js">nodo-js</a> icon and&nbsp;
             <a target="_blank" href="https://icons8.com/icon/20906/git">Git</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>.
           </p>
         </div>
