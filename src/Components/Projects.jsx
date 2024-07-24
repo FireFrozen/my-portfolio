@@ -7,6 +7,9 @@ import Proyecto0c from "../Assets/Proyectos/Captura web_17-11-2023_32436_firefro
 
 import Proyecto1 from "../Assets/Proyectos/Weather-app.png"
 import Proyecto2 from "../Assets/Proyectos/Url-shortning-app.png"
+
+import ProyLPColegioJB from "../Assets/Proyectos/landing-page-colegio-jose-de-begona.png"
+
 import Proyecto3 from "../Assets/Proyectos/advice-generator-app.png"
 import Proyecto4 from "../Assets/Proyectos/rock-paper-scissors-app.png"
 
@@ -20,6 +23,7 @@ const Projects = () => {
     <div className='Projects'>
       <h1>{t("Projects")}</h1>
 
+      {/* Proyecto CRUD app*/}
       <div className='Projects-item'>
         <div className='Projects-item-text'>
               <h1>CRUD app</h1>
@@ -31,7 +35,7 @@ const Projects = () => {
                   role="button" target='_blank'>{t("VerCodigo")}</a>
                 <a className="btn btn-success" 
                   href="https://firefrozen.github.io/CRUD-Angular-Firebase/" 
-                role="button" target='_blank'>{t("VerProyectos")}</a>
+                role="button" target='_blank'>{t("VerProyecto")}</a>
               </div>
         </div>
         {/* <img className='proyecto-img' src={Proyecto0a} alt='proyecto0'/> */}
@@ -60,6 +64,7 @@ const Projects = () => {
 
       </div>
 
+      {/* Proyecto Wheather app */}
       <div className='Projects-item'>
         <div className='Projects-item-text'>
               <h1>Wheather app</h1>
@@ -71,27 +76,28 @@ const Projects = () => {
                   role="button" target='_blank'>{t("VerCodigo")}</a>
                 <a className="btn btn-success" 
                   href="https://firefrozen.github.io/react-weather-app-async/" 
-                role="button" target='_blank'>{t("VerProyectos")}</a>
+                role="button" target='_blank'>{t("VerProyecto")}</a>
               </div>
         </div>
         <img className='proyecto-img' src={Proyecto1} alt='proyecto1'/>
       </div>
 
+      {/* Proyecto Landing Colegio Page Jose Begoña */}
       <div className='Projects-item'>
         <div className='Projects-item-text'>
-              <h1>URL shortening app</h1>
-              <p>{t("ProyectoDescripcion2")}
+              <h1>Landing page Jose de Begoña</h1>
+              <p>{t("ProyDescripLPColegioJB")}
               </p>
               <div className='Projects-buttons'>
-                <a className="btn btn-outline-primary" 
-                  href="https://github.com/FireFrozen/url-shortening-api-react" 
-                  role="button" target='_blank'>{t("VerCodigo")}</a>
+                {/* <a className="btn btn-outline-primary" 
+                  href="" 
+                  role="button" target='_blank'>{t("VerCodigo")}</a> */}
                 <a className="btn btn-success" 
-                  href="https://firefrozen.github.io/url-shortening-api-react/" 
-                  role="button" target='_blank'>{t("VerProyectos")}</a>
+                  href="https://colegio.minegocio21.com/" 
+                  role="button" target='_blank'>{t("VerProyecto")}</a>
               </div>
         </div>
-        <img className='proyecto-img' src={Proyecto2} alt='proyecto2'/>
+        <img className='proyecto-img' src={ProyLPColegioJB} alt='proyecto2'/>
       </div>
 
       <div className='Projects-item'>
@@ -106,7 +112,7 @@ const Projects = () => {
                   role="button" target='_blank'>{t("VerCodigo")}</a>
                 <a className="btn btn-success" 
                   href="https://firefrozen.github.io/advice-generator-app-main/" 
-                  role="button" target='_blank'>{t("VerProyectos")}</a>
+                  role="button" target='_blank'>{t("VerProyecto")}</a>
               </div>
         </div>
         <img className='proyecto-img' src={Proyecto3} alt='proyecto3'/>
@@ -124,7 +130,7 @@ const Projects = () => {
                   role="button" target='_blank'>{t("VerCodigo")}</a>
                 <a className="btn btn-success" 
                   href="https://firefrozen.github.io/rock-paper-scissors-master-3-elements/" 
-                  role="button" target='_blank'>{t("VerProyectos")}</a>
+                  role="button" target='_blank'>{t("VerProyecto")}</a>
               </div>
         </div>
         <img className='proyecto-img' src={Proyecto4} alt='proyecto4'/>

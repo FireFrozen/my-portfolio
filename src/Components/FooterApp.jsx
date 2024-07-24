@@ -9,7 +9,7 @@ const FooterApp = () => {
         
         
         <div className='FooterApp-container margin-app'>
-            <h1 className='logo-web'>Alejandro</h1>
+            
             <div className='icon-footer-container'>
 
                 <a href="https://github.com/FireFrozen" 
@@ -22,7 +22,7 @@ const FooterApp = () => {
         </div>
 
         <div className='ref-links-container'>
-          <p>This website was developed with React by FireFrozen 2023</p>
+          <p>This website was developed with React by FireFrozen 2024</p>
           <p>
             <a target="_blank" href="https://icons8.com/icon/21278/css3">css</a> icon,&nbsp;
             <a target="_blank" href="https://icons8.com/icon/20909/html-5">html</a> icon,&nbsp; 

@@ -114,10 +114,10 @@ const Skill = () => {
         <section className='section-skill'>
           <h2>{t("SoftSkills")}</h2>
           <ul>
-            <li><AiOutlineLaptop/> &nbsp; {t("Autodidacta")}</li>
-            <li><AiOutlineThunderbolt/> &nbsp; {t("AprendizajeRapido")}</li>
-            <li><GiMagnifyingGlass/> &nbsp; {t("CapacidadAnalisis")}</li>
-            <li><AiOutlineTeam/> &nbsp; {t("TrabajoEquipo")}</li>                
+            <li><AiOutlineLaptop/>  <p>{t("Autodidacta")}</p> </li>
+            <li><AiOutlineThunderbolt/>  <p>{t("AprendizajeRapido")}</p> </li>
+            <li><GiMagnifyingGlass/> <p>{t("CapacidadAnalisis")}</p> </li>
+            <li><AiOutlineTeam/>  <p>{t("TrabajoEquipo")}</p></li>                
           </ul>
           
         </section>
