@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.786e2620.css",
-    "main.js": "/my-portfolio/static/js/main.cc18aa87.js",
+    "main.js": "/my-portfolio/static/js/main.5feb79a7.js",
     "static/js/787.f35f70c9.chunk.js": "/my-portfolio/static/js/787.f35f70c9.chunk.js",
     "static/media/landing-page-colegio-jose-de-begona.png": "/my-portfolio/static/media/landing-page-colegio-jose-de-begona.6a7ff7904620c6e795a7.png",
     "static/media/D008_72391553_B.pdf": "/my-portfolio/static/media/D008_72391553_B.436a077d5eb86fbf986b.pdf",
@@ -30,11 +30,11 @@
     "static/media/icons8-css.svg": "/my-portfolio/static/media/icons8-css.db7dfd1247623e1e9223d8ef28a37432.svg",
     "static/media/icons8-html.svg": "/my-portfolio/static/media/icons8-html.a026abbb678246d70ee9b70e4aee972c.svg",
     "main.786e2620.css.map": "/my-portfolio/static/css/main.786e2620.css.map",
-    "main.cc18aa87.js.map": "/my-portfolio/static/js/main.cc18aa87.js.map",
+    "main.5feb79a7.js.map": "/my-portfolio/static/js/main.5feb79a7.js.map",
     "787.f35f70c9.chunk.js.map": "/my-portfolio/static/js/787.f35f70c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.786e2620.css",
-    "static/js/main.cc18aa87.js"
+    "static/js/main.5feb79a7.js"
   ]
 }
