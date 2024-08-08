@@ -12,7 +12,7 @@ i18n.use(initReactI18next).init({
             translation: {
                 Home: 'Home',
                 greeting: "Hi, I'm",
-                ocupation:"Frontend developer",
+                ocupation:"Full Stack developer",
                 HomeDescription:"Medium level of experience in web development and oriented to learning constantly",
                 AboutMe: "About me",
                 Projects: "Projects",
@@ -62,7 +62,7 @@ i18n.use(initReactI18next).init({
             translation: {
                 Home: 'Página principal',
                 greeting: "Hola, soy",
-                ocupation:"Desarrollador Frontend",
+                ocupation:"Desarrollador Full Stack",
                 HomeDescription:"Nivel medio de experiencia en desarrollo web y orientado al aprendizaje constante",
                 AboutMe: "Acerca de mí",
                 Projects: "Proyectos",
