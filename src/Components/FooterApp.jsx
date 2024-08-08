@@ -34,7 +34,9 @@ const FooterApp = () => {
             <a target="_blank" href="https://icons8.com/icon/13441/python">Python</a> icon,&nbsp;
             <a target="_blank" href="https://icons8.com/icon/13664/wordpress">WordPress</a> icon,&nbsp;
             <a target="_blank" href="https://icons8.com/icon/zfHRZ6i1Wg0U/figma">Figma</a> icon,&nbsp;
-            <a target="_blank" href="https://icons8.com/icon/hsPbhkOH4FMe/node-js">nodo-js</a> icon and&nbsp;
+            <a target="_blank" href="https://icons8.com/icon/hsPbhkOH4FMe/node-js">nodo-js</a> icon,&nbsp;
+            <a target="_blank" href="https://icons8.com/icon/2oBx9FpXcbLa/spring-boot">Spring Boot</a> icon,&nbsp;
+            <a target="_blank" href="https://icons8.com/icon/13679/java">Java</a> icon and&nbsp;
             <a target="_blank" href="https://icons8.com/icon/20906/git">Git</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>.
           </p>
         </div>

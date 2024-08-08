@@ -14,6 +14,8 @@ import Python from "../Assets/icons/icons8-python.svg"
 import WordPress from "../Assets/icons/icons8-wordpress.svg"
 import Figma from "../Assets/icons/icons8-figura.svg"
 import NodeJS from "../Assets/icons/icons8-nodo-js.svg"
+import SpringBoot from "../Assets/icons/icons8-spring-boot.svg"
+import Java from "../Assets/icons/icons8-java.svg"
 
 import {GiMagnifyingGlass} from "react-icons/gi"
 import {AiOutlineLaptop} from "react-icons/ai"
@@ -91,6 +93,16 @@ const Skill = () => {
             <div className='tarjeta-icono'>
               <img src={Figma} alt='Figma-icon'/>
               <p>Figma</p>
+            </div>
+
+            <div className='tarjeta-icono'>
+              <img src={SpringBoot} alt='Spring-Boot-icon'/>
+              <p>Spring Boot</p>
+            </div>
+
+            <div className='tarjeta-icono'>
+              <img src={Java} alt='Java-icon'/>
+              <p>Java</p>
             </div>
 
             <div className='tarjeta-icono'>

@@ -82,6 +82,12 @@
     align-items: center;
 }
 
+.tarjeta-icono img{
+    width: 144px;
+    height: 144px;
+    -webkit-user-drag: none;
+}
+
 .tarjeta-icono p{
     margin: 0;
     color: rgb(106, 98, 98);
