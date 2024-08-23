@@ -26,8 +26,8 @@ i18n.use(initReactI18next).init({
 
                 AboutText1:"Bachelor of Mechatronics Engineering "+
                 "from the Pontificia Universidad Católica del Perú (PUCP)",
-                AboutText2:"Front-end web Developer",
-                AboutText3:"Experience using React, Angular and Java in projects",
+                AboutText2:"Full-stack web Developer",
+                AboutText3:"Experience using Spring Boot, React, Angular and Java in projects",
                 
                 
                 TechSkills:"Technical Skills",
@@ -76,8 +76,8 @@ i18n.use(initReactI18next).init({
 
                 AboutText1:"Bachiller de la especialidad de Ingeniería Mecatrónica"+
                  " de la Pontificia Universidad Católica del Perú (PUCP)",
-                AboutText2:"Desarrollador web Front-end",
-                AboutText3:"Experiencia usando React, Angular y Java en proyectos",
+                AboutText2:"Desarrollador web Full-stack",
+                AboutText3:"Experiencia usando Spring Boot, React, Angular y Java en proyectos",
 
                 TechSkills:"Habilidades técnicas",
                 SoftSkills:"Habilidades blandas",
